@@ -57,7 +57,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Added for Heroku Deploy
 group :production do
-  gem 'pg', '0.18.0'
+  gem 'pg'
   gem 'rails_12factor'
 end
 
